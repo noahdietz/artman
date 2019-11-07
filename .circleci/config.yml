@@ -4,7 +4,7 @@ jobs:
   golden_and_smoke_tests:
     working_directory: /usr/src/artman
     docker:
-      - image: docker:17.12.1-ce-git
+      - image: docker:19-git
     steps:
       - &checkout_artman
         checkout:
